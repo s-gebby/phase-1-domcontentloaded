@@ -1,7 +1,10 @@
-// Your code goes here
 document.addEventListener("DOMContentLoaded", function () {
-  var messageElement = document.getElementById("message");
-  if (messageElement) {
-    messageElement.textContent = "This is really cool!";
+  // Select the <p> element
+  const paragraphElement = document.querySelector("p");
+
+  // Check if the <p> element exists
+  if (paragraphElement) {
+    // Change the text content of the <p> element
+    paragraphElement.textContent = "This is really cool!";
   }
 });
